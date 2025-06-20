@@ -4,6 +4,7 @@
 
 import { useState, useEffect } from 'react';
 import { Menu, X, Globe, ChevronDown, Facebook, Twitter, Instagram, Youtube, Linkedin } from 'lucide-react';
+import Header from './components/Header';
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,9 +26,8 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50 font-inter text-gray-800">
       {/* Header */}
-      <header className="bg-white shadow-sm py-4 px-6 md:px-10 sticky top-0 z-50 rounded-b-lg">
+      {/* <header className="bg-white shadow-sm py-4 px-6 md:px-10 sticky top-0 z-50 rounded-b-lg">
         <div className="container mx-auto flex justify-between items-center">
-          {/* Logo */}
           <div className="flex-shrink-0">
             <svg
               width="150"
@@ -44,7 +44,6 @@ export default function Home() {
             </svg>
           </div>
 
-          {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6 lg:space-x-8">
             {['Home', 'Games', 'About Us', 'Privacy', 'Support'].map((item) => (
               <a
@@ -75,7 +74,6 @@ export default function Home() {
             </div>
           </nav>
 
-          {/* Mobile Menu Button */}
           <div className="md:hidden">
             <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="text-gray-700 focus:outline-none">
               {isMenuOpen ? <X className="h-7 w-7" /> : <Menu className="h-7 w-7" />}
@@ -83,7 +81,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="fixed inset-0 bg-white bg-opacity-95 z-40 flex flex-col items-center justify-center space-y-8 md:hidden">
             <button onClick={() => setIsMenuOpen(false)} className="absolute top-6 right-6 text-gray-700 focus:outline-none">
@@ -108,7 +105,9 @@ export default function Home() {
             </nav>
           </div>
         )}
-      </header>
+      </header> */}
+
+      <Header />
 
       {/* Main Content */}
       <main className="container mx-auto px-6 py-12 md:py-16">
