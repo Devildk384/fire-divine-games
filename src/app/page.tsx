@@ -3,11 +3,11 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Menu, X, Globe, ChevronDown, Facebook, Twitter, Instagram, Youtube, Linkedin } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Youtube, Linkedin } from 'lucide-react';
 import Header from './components/Header';
 
 export default function Home() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  // const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [userId, setUserId] = useState<string | null>(null);
 
   useEffect(() => {
