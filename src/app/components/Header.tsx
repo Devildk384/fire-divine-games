@@ -4,29 +4,15 @@ import Link from 'next/link';
 const Header = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 bg-white shadow z-50 transition-all">
-      <div className="container mx-auto flex justify-between items-center py-4 px-6">
+      <div className="container mx-auto flex justify-between items-center py-2 px-6">
         
         {/* Logo */}
         <Link href="/" aria-label="Navigate to home page" className="flex items-center">
-          <svg
-            width="100px"
-            height="100px"
-            viewBox="0 0 150 130"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g clipPath="url(#clip0)">
-              {/* (you can paste your full <path> elements here from your SVG) */}
-              <path d="M83.4316 31.3651C84.8284 27.9084 88.0998 25.6737 ..." fill="#101014" />
-              <path d="M61.9511 73.1146C61.1954 72.7883 ..." fill="#FF7040" />
-              {/* ... More paths */}
-            </g>
-            <defs>
-              <clipPath id="clip0">
-                <rect width="150" height="130" fill="white" />
-              </clipPath>
-            </defs>
-          </svg>
+          <img 
+            src="/logo.png" 
+            alt="Fire Divine Games Logo" 
+            className="h-25 w-auto object-contain" 
+          />
         </Link>
 
         {/* Nav Links */}
