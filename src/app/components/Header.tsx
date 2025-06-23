@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import { X , TwitterIcon, InstagramIcon, FacebookIcon, LinkedinIcon, YoutubeIcon } from 'lucide-react';
+import Image from 'next/image';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,7 +12,7 @@ const Header = () => {
         
         {/* Logo */}
         <Link href="/" aria-label="Navigate to home page" className="flex items-center">
-          <img 
+          <Image 
             src="/logo.png" 
             alt="Fire Divine Games Logo" 
             className="h-20 w-auto object-contain" 
@@ -58,7 +59,7 @@ const Header = () => {
         {/* Top Section */}
         <div className="flex justify-between items-center mb-8">
           <Link href="/" className="flex items-center" onClick={() => setMenuOpen(false)}>
-            <img 
+            <Image 
               src="/logo.png" 
               alt="Fire Divine Games Logo" 
               className="h-20 w-auto object-contain" 

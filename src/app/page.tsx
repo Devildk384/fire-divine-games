@@ -5,6 +5,7 @@
 import { useState, useEffect } from 'react';
 import { Facebook, Twitter, Instagram, Youtube, Linkedin } from 'lucide-react';
 import Header from './components/Header';
+import SectionA from './components/SectionA';
 
 export default function Home() {
   // const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,89 +26,10 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gray-50 font-inter text-gray-800">
-      {/* Header */}
-      {/* <header className="bg-white shadow-sm py-4 px-6 md:px-10 sticky top-0 z-50 rounded-b-lg">
-        <div className="container mx-auto flex justify-between items-center">
-          <div className="flex-shrink-0">
-            <svg
-              width="150"
-              height="40"
-              viewBox="0 0 150 40"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              className="text-indigo-600"
-            >
-              <rect width="150" height="40" rx="8" fill="currentColor" />
-              <text x="10" y="28" fontFamily="Arial, sans-serif" fontSize="20" fill="white" fontWeight="bold">
-                Fire Divine
-              </text>
-            </svg>
-          </div>
-
-          <nav className="hidden md:flex items-center space-x-6 lg:space-x-8">
-            {['Home', 'Games', 'About Us', 'Privacy', 'Support'].map((item) => (
-              <a
-                key={item}
-                href="#"
-                className="text-gray-700 hover:text-indigo-600 transition-colors font-medium"
-              >
-                {item}
-              </a>
-            ))}
-            <div className="relative group">
-              <button className="flex items-center text-gray-700 hover:text-indigo-600 transition-colors font-medium focus:outline-none">
-                <Globe className="h-5 w-5 mr-1" />
-                EN
-                <ChevronDown className="h-4 w-4 ml-1" />
-              </button>
-              <div className="absolute right-0 mt-2 w-32 bg-white border border-gray-200 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
-                {['English', 'Español', 'Svenska'].map((lang) => (
-                  <a
-                    key={lang}
-                    href="#"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                  >
-                    {lang}
-                  </a>
-                ))}
-              </div>
-            </div>
-          </nav>
-
-          <div className="md:hidden">
-            <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="text-gray-700 focus:outline-none">
-              {isMenuOpen ? <X className="h-7 w-7" /> : <Menu className="h-7 w-7" />}
-            </button>
-          </div>
-        </div>
-
-        {isMenuOpen && (
-          <div className="fixed inset-0 bg-white bg-opacity-95 z-40 flex flex-col items-center justify-center space-y-8 md:hidden">
-            <button onClick={() => setIsMenuOpen(false)} className="absolute top-6 right-6 text-gray-700 focus:outline-none">
-              <X className="h-8 w-8" />
-            </button>
-            <nav className="flex flex-col space-y-6 text-xl">
-              {['Home', 'Games', 'About Us', 'Privacy', 'Support'].map((item) => (
-                <a
-                  key={item}
-                  href="#"
-                  className="text-gray-800 hover:text-indigo-600 transition-colors font-bold"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {item}
-                </a>
-              ))}
-              <button className="flex items-center text-gray-800 hover:text-indigo-600 transition-colors font-bold focus:outline-none">
-                <Globe className="h-6 w-6 mr-2" />
-                EN
-                <ChevronDown className="h-5 w-5 ml-1" />
-              </button>
-            </nav>
-          </div>
-        )}
-      </header> */}
+     
 
       <Header />
+      <SectionA />
 
       {/* Main Content */}
       <main className="container mx-auto px-6 py-12 md:py-16">
