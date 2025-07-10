@@ -1,28 +1,28 @@
-// tailwind.config.js
 module.exports = {
-  content: ['./src/**/*.{js,ts,jsx,tsx}'], // adjust to your src
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
+    fontFamily: {
+      primary: ["Montserrat", "Arial", "sans-serif"],
+    },
     extend: {
-      animation: {
-        bounceDown: 'bounceDown 0.6s cubic-bezier(0.34, 1.56, 0.64, 1)',
-        bounceUp: 'bounceUp 0.5s ease-in-out',
+      colors: {
+        primary: "#9B7340",
+        secondary: "rgb(16, 37, 66)",
       },
-      keyframes: {
-        bounceDown: {
-          '0%': { transform: 'translateY(-100%)' },
-          '60%': { transform: 'translateY(0)' },
-          '75%': { transform: 'translateY(-20px)' },
-          '90%': { transform: 'translateY(0)' },
-          '95%': { transform: 'translateY(-10px)' },
-          '100%': { transform: 'translateY(0)' },
-        },
-        bounceUp: {
-          '0%': { transform: 'translateY(0)' },
-          '50%': { transform: 'translateY(-20px)' },
-          '100%': { transform: 'translateY(-100%)' },
-        },
+      backgroundImage: {
+        stars: "url('/img/stars.webp'), linear-gradient(to right, #000, #000)",
+        twinkling: "url('/img/twinkling.webp')",
+        clouds: "url('/img/clouds.webp')",
+        dots: "linear-gradient(90deg, rgba(247,246,197,1) 0%, rgba(163,126,76,1) 100%)",
+      },
+      animation: {
+        twink: "move-twinks 200s linear infinite",
+        cloud: "move-clouds 200s linear infinite",
       },
     },
   },
   plugins: [],
-}
+};
