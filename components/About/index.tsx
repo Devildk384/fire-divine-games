@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import card from "./card.webp";
+// import card from "./card.webp";
+import card from "./card.png";
 
 const About = () => {
   return (
