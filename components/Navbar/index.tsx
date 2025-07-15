@@ -9,7 +9,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
 import React, { useState } from "react";
-import logo from "./ASLogo.webp";
+import logo from "./FDL.png";
 
 const navbarLinks = [
   {
