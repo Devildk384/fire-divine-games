@@ -13,7 +13,7 @@ const History = () => {
         <li className="mb-10 ml-4">
           <div className="absolute w-6 h-6 bg-primary rounded-full mt-1.5 -left-3.5 border border-primary"></div>
           <time className="mb-1 ml-2.5 leading-none text-primary text-center text-l font-bold uppercase">
-            January 2021
+            January 2024
           </time>
           <p className="mb-4 ml-2.5 text-sm font-normal ">
             We started thinking about making our debut game.
@@ -22,83 +22,89 @@ const History = () => {
         <li className="mb-10 ml-4">
           <div className="absolute w-6 h-6 bg-primary rounded-full mt-1.5 -left-3.5 border border-primary"></div>
           <time className="mb-1 ml-2.5 leading-none text-primary text-center text-l font-bold uppercase">
-            February 2021
+February 2024
           </time>
 
           <p className="mb-4 ml-2.5 text-sm font-normal ">
-            We made a team ready for all types of challenges :)
+            Started conceptualizing our debut game "Unearthed: The Invasion". :)
           </p>
         </li>
         <li className="mb-10 ml-4">
           <div className="absolute w-6 h-6 bg-primary rounded-full mt-1.5 -left-3.5 border border-primary"></div>
           <time className="mb-1 ml-2.5 leading-none text-primary text-center text-l font-bold uppercase">
-            March 2021
+March 2024
           </time>
 
           <p className="mb-4 ml-2.5 text-sm font-normal ">
-            Conceptual work on the game has started - the fun has just begun!
+Initial prototypes and artwork for "Unearthed" were underway. Our small but dedicated team handled design, development, and testing together.
+
           </p>
         </li>
         <li className="mb-10 ml-4">
           <div className="absolute w-6 h-6 bg-primary rounded-full mt-1.5 -left-3.5 border border-primary"></div>
           <time className="mb-1 ml-2.5 leading-none text-primary text-center text-l font-bold uppercase">
-            June 2021
+May 22, 2024
           </time>
 
           <p className="mb-4 ml-2.5 text-sm font-normal ">
-            We started the real game development process. It&apos;s starting to
-            get serious ;)
+            🎉 Official release of "Unearthed: The Invasion" on Android – our very first published mobile game!
+
+ ;)
           </p>
         </li>
         <li className="mb-10 ml-4">
           <div className="absolute w-6 h-6 bg-primary rounded-full mt-1.5 -left-3.5 border border-primary"></div>
           <time className="mb-1 ml-2.5 leading-none text-primary text-center text-l font-bold uppercase">
-            March 25th, 2022
+July–October 2024
           </time>
 
           <p className="mb-4 ml-2.5 text-sm font-normal ">
-            The release of our first game &quot;Last Threshold&quot;!
+We explored and released a few experimental mini-games. Though they didn’t gain much attraction, they taught us invaluable lessons in game publishing and user experience.
+
           </p>
         </li>
         <li className="mb-10 ml-4">
           <div className="absolute w-6 h-6 bg-primary rounded-full mt-1.5 -left-3.5 border border-primary"></div>
           <time className="mb-1 ml-2.5 leading-none text-primary text-center text-l font-bold uppercase">
-            May 31st, 2022
+November 2024
           </time>
 
           <p className="mb-4 ml-2.5 text-sm font-normal ">
-            We begun co-operation with Feardemic sp. z.o.o. for publishing
-            &quot;Last Threshold&quot; on consoles
+Started working on our second major title – a cozy hidden object puzzle game called "Find Me".
+
           </p>
         </li>
         <li className="mb-10 ml-4">
           <div className="absolute w-6 h-6 bg-primary rounded-full mt-1.5 -left-3.5 border border-primary"></div>
           <time className="mb-1 ml-2.5 leading-none text-primary text-center text-l font-bold uppercase">
-            August 11th, 2022
+February 10, 2025
           </time>
 
           <p className="mb-4 ml-2.5 text-sm font-normal ">
-            &quot;Last Threshold&quot; release on Nintendo Switch console
+🌟 Launched "Find Me: Hidden Object Game" – a beautifully crafted adventure that resonated with casual gamers and mystery lovers alike.
+
           </p>
         </li>
         <li className="mb-10 ml-4">
           <div className="absolute w-6 h-6 bg-primary rounded-full mt-1.5 -left-3.5 border border-primary"></div>
           <time className="mb-1 ml-2.5 leading-none text-primary text-center text-l font-bold uppercase">
-            December 21st, 2022
+March 2025
           </time>
 
           <p className="mb-4 ml-2.5 text-sm font-normal ">
-            The release of our second game &quot;Ballads and romances&quot;!
+While updates for "Find Me" we continued, our next idea began taking shape – a colorful yet challenging spot-the-difference puzzle game.
+
           </p>
         </li>
         <li className="ml-4">
           <div className="absolute w-6 h-6 bg-primary rounded-full mt-1.5 -left-3.5 border border-primary"></div>
           <time className="mb-1 ml-2.5 leading-none text-primary text-center text-l font-bold uppercase">
-            January 2nd, 2023
+July 11, 2025
           </time>
 
           <p className="mb-4 ml-2.5 text-sm font-normal ">
-            &quot;Ballads and romances&quot; released on mobile devices
+🧩 Released "Spot the Difference" – adding a vibrant, visual challenge to our growing lineup.
+
           </p>
         </li>
       </ol>

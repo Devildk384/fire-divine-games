@@ -14,86 +14,12 @@ const Team = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 text-sm text-white lg:gap-8">
           <ul className="list-disc">
             <li>
-              <span className="text-primary">Adam Flamma</span> - Father of
-              chaos (and games)
+              <span className="text-primary">Deepesh Kumar </span> - Co-Founder & Lead Game Designer at Fire Divine Games
             </li>
             <li>
-              <span className="text-primary">Nina Świłło</span> - Miracle maker
-              (art, graphics, and managing)
+              <span className="text-primary">Durgesh Kumar</span> - Co-Founder & Full-Stack Developer at Fire Divine Games
             </li>
-            <li>
-              <span className="text-primary">Szymon Stoczek</span> - Father of
-              stories (yep, that&apos;s him!)
-            </li>
-            <li>
-              <span className="text-primary">Szymon Makuch</span> - Wizard of
-              finances (and copyright - love of his life)
-            </li>
-            <li>
-              <span className="text-primary">Aleksandra „Alexia” Majerska</span>{" "}
-              - Lady of Posts (social media specialist)
-            </li>
-            <li>
-              <span className="text-primary">Michał Hawełka</span> - IT guy
-            </li>
-            <li>
-              <span className="text-primary">Fazal Khan</span> - Video and VFX
-              Magic Maker (visual magic - bringing imagination to life)
-            </li>
-            <li>
-              <span className="text-primary">Aleksandra Browarska</span> - Lady
-              of Stories (writer)
-            </li>
-            <li>
-              <span className="text-primary">Kamil Mazerant</span> - Lord of
-              Sounds (sound designer)
-            </li>
-            <li>
-              <span className="text-primary">Patrycja Skałecka-Wodziczko</span>{" "}
-              - Lady of Art (lead graphic designer)
-            </li>
-          </ul>
-          <ul className="list-disc">
-            <li>
-              <span className="text-primary">Antoni Jastrzębski</span> - Lord of
-              characters (character & 2d artist)
-            </li>
-            <li>
-              <span className="text-primary">Sara Grzelak</span> - 2d miracle
-              maker (2d artist)
-            </li>
-            <li>
-              <span className="text-primary">Zuzanna Nowicka</span> - 2d miracle
-              maker (2d artist)
-            </li>
-            <li>
-              <span className="text-primary">Karolina Lewicka</span> - 2d
-              miracle maker (2d artist)
-            </li>
-            <li>
-              <span className="text-primary">Jan Pusiarski</span> - 2d miracle
-              maker (2d artist)
-            </li>
-            <li>
-              <span className="text-primary">Anna Bielecka</span> - Lady of
-              Concepts (concept artist)
-            </li>
-            <li>
-              <span className="text-primary">Wiktor Pawlik</span> - Master of
-              Design (gameplay designer & technical producer)
-            </li>
-            <li>
-              <span className="text-primary">Damian Frycz</span> - Lord of
-              Puzzles (game designer)
-            </li>
-            <li>
-              <span className="text-primary">Ilias Abdeljalil</span> - Lord of
-              the code (programmer)
-            </li>
-            <li>
-              <span className="text-primary">Jacek Godlewski</span> - Lord of
-              raports (QA Tester)
-            </li>
+            
           </ul>
         </div>
         <div className="bg-dots rounded-full w-14 h-14 relative -bottom-16 ml-auto -rotate-90 float-right"></div>

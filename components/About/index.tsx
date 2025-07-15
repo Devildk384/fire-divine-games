@@ -18,13 +18,11 @@ const About = () => {
         </div>
         <div className="flex flex-col gap-4 items-center justify-center lg:col-start-2 lg:col-end-4 text-sm">
           <p className=" text-white ">
-            Fire Divini Games is a gaming project of the Games’ Development and
-            Research Association GameUP. The main aim of Fire Divini Games is to
-            make meaningful games with unforgettable stories. We are a group of
-            experienced storytellers and enthusiasts of story design. Just as
-            the astrolabe showed the direction of travel, for us such a way of
-            navigating is telling unique stories. With a group of our students,
-            we decided to start our journey together and make our first game.
+            Fire Divine Games is a passionate game development project launched under the Games’ Development and Research Association, GameUP. Our mission is simple but bold: to create meaningful games with unforgettable stories that stay with players long after the screen fades to black.
+
+We're not just developers — we're storytellers, dreamers, and creators. Inspired by the power of narrative, we believe that games can be more than entertainment — they can be emotional journeys that touch hearts, spark thoughts, and explore the depths of human nature.
+
+Just as the astrolabe guided explorers through unknown seas, our compass is the art of storytelling. Together with a group of dedicated students and creative minds, we set out on this exciting journey to build immersive experiences that matter.
           </p>
           <p className=" text-white">
             Each of us appreciates games with stories that touch the heart and
@@ -32,34 +30,53 @@ const About = () => {
             will leave a mark on players&apos; memories.
           </p>
           <p className=" text-white">
-            On the 25th of March 2022 we&apos;ve released &quot;Last
-            Threshold&quot;, our first game, heavily inspired by the work of
-            H.P. Lovecraft and his followers, which allows you to learn about
-            the extraordinary history of a mysterious temple in Siberia. We
-            decided on the visual novel genre because we wanted the player to
-            empathize with the hero struggling with the dark secrets of the
-            temple, difficult weather conditions, and his past.
+           🌌 Unearthed: The Invasion
+Released: May 22, 2024
+
+A Multi-Character Alien Survival Thriller
+
+Step into a world turned upside down by an alien invasion in this thrilling, action-packed adventure.
+
+In a peaceful village, Lily and her father David live a quiet life — until the skies fill with alien ships and chaos erupts. Survival becomes the only goal. Switch between three unique perspectives in your fight for survival:
+
+David: Brave perilous roads, dodge alien scouts, and race against time to save his daughter.
+
+Lily: Sneak through the shadows and uncover hidden truths behind the invasion.
+
+The Soldier: Armed and ready, face off against alien forces and protect as many survivors as possible.
+
+📥 Download now and see if you have what it takes to survive the invasion.
+
+Unearthed: The Invasion – Your choices matter. Your survival is not guaranteed.
           </p>
           <p className=" text-white">
-            Soon after the release of our debut, we decided to expand the
-            Threshold universe. We have started to make webcomics
-            &quot;Chronicles of Aleleke&quot;, also you can read the prequel of
-            Last Threshold on our social media (&quot;Karol Staszewski&apos;s
-            diary&quot;). We are working on a standalone comic that will help us
-            to expand our universe.
+            🔍 Find Me: Hidden Object Game
+Released: February 10, 2025
+
+The Ultimate No-Zoom Hidden Object Challenge
+
+Welcome to Find Me, the most challenging and satisfying hidden object experience – with no zoom! Dive into beautifully illustrated scenes, packed with cleverly concealed items that will test even the sharpest eyes.
+
+🌿 Stunning handcrafted visuals
+
+🧠 Designed for mental focus, relaxation, and brain training
+
+⏳ Progressively difficult levels to keep you hooked
+
+🎯 Think you have what it takes to find them all?
+📥 Download Find Me now and challenge your attention to detail like never before!
           </p>
           <p className=" text-white">
-            On 21.12.2022 we published &quot;Ballads and Romances&quot;, a
-            visual novel game in collaboration with The Ministry of Culture and
-            National Heritage of Poland. This visual novel shows the origins of
-            &quot;Ballads and Romances&quot;, the literary debut of Adam
-            Mickiewicz, a great Polish poet in the Romanticism Epoque.
-          </p>
-          <p className=" text-white">
-            Now we are working on new projects, in which we want to focus on
-            telling the stories of protagonists, whose fates will allow us to
-            tell a bit more about human nature and much more! You will have to
-            wait a little longer for more information. Stay tuned!
+            🔮 What’s Next?
+We’re currently working on two ambitious titles:
+
+👁️‍🗨️ A horror mobile game blending psychological suspense with immersive storytelling.
+
+🧬 A deep indie game centered on human evolution, survival instincts, and our journey through time.
+
+These upcoming titles dive deeper into the complexity of human nature, emotional decisions, and the consequences of choice.
+
+Stay tuned – the next chapter of Fire Divine Games is about to unfold.
           </p>
         </div>
       </div>
