@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="min-h-60 sm:min-h-96 xl:min-h-[50vh] w-full px-5 py-10 max-w-screen-md 2xl:max-w-screen-xl 3xl:max-w-screen-2xl mx-auto "
+      className="min-h-60 sm:min-h-96 xl:min-h-[50vh] w-full px-5 md:px-[60px] py-10 max-w-screen-md 2xl:max-w-screen-xl 3xl:max-w-screen-2xl mx-auto "
     >
       <h2 className="text-primary text-center text-xl font-bold uppercase mb-8">
         ABOUT US
@@ -20,7 +20,7 @@ const About = () => {
           <p className=" text-white ">
             Fire Divine Games is a passionate game development project launched under the Games’ Development and Research Association, GameUP. Our mission is simple but bold: to create meaningful games with unforgettable stories that stay with players long after the screen fades to black.
 
-We're not just developers — we're storytellers, dreamers, and creators. Inspired by the power of narrative, we believe that games can be more than entertainment — they can be emotional journeys that touch hearts, spark thoughts, and explore the depths of human nature.
+We&apos;re not just developers — we&apos;re storytellers, dreamers, and creators. Inspired by the power of narrative, we believe that games can be more than entertainment — they can be emotional journeys that touch hearts, spark thoughts, and explore the depths of human nature.
 
 Just as the astrolabe guided explorers through unknown seas, our compass is the art of storytelling. Together with a group of dedicated students and creative minds, we set out on this exciting journey to build immersive experiences that matter.
           </p>

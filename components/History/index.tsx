@@ -26,7 +26,7 @@ February 2024
           </time>
 
           <p className="mb-4 ml-2.5 text-sm font-normal ">
-            Started conceptualizing our debut game "Unearthed: The Invasion". :)
+            Started conceptualizing our debut game &quot;Unearthed: The Invasion&quot;. :
           </p>
         </li>
         <li className="mb-10 ml-4">
@@ -36,7 +36,7 @@ March 2024
           </time>
 
           <p className="mb-4 ml-2.5 text-sm font-normal ">
-Initial prototypes and artwork for "Unearthed" were underway. Our small but dedicated team handled design, development, and testing together.
+Initial prototypes and artwork for &quot;Unearthed&quot; were underway. Our small but dedicated team handled design, development, and testing together.
 
           </p>
         </li>
@@ -47,9 +47,9 @@ May 22, 2024
           </time>
 
           <p className="mb-4 ml-2.5 text-sm font-normal ">
-            🎉 Official release of "Unearthed: The Invasion" on Android – our very first published mobile game!
+            🎉 Official release of &quot;Unearthed: The Invasion&quot; on Android – our very first published mobile game!
 
- ;)
+ ;
           </p>
         </li>
         <li className="mb-10 ml-4">
@@ -70,7 +70,7 @@ November 2024
           </time>
 
           <p className="mb-4 ml-2.5 text-sm font-normal ">
-Started working on our second major title – a cozy hidden object puzzle game called "Find Me".
+Started working on our second major title – a cozy hidden object puzzle game called &quot;Find Me&quot;.
 
           </p>
         </li>
@@ -81,7 +81,7 @@ February 10, 2025
           </time>
 
           <p className="mb-4 ml-2.5 text-sm font-normal ">
-🌟 Launched "Find Me: Hidden Object Game" – a beautifully crafted adventure that resonated with casual gamers and mystery lovers alike.
+🌟 Launched &quot;Find Me: Hidden Object Game&quot; – a beautifully crafted adventure that resonated with casual gamers and mystery lovers alike.
 
           </p>
         </li>
@@ -92,7 +92,7 @@ March 2025
           </time>
 
           <p className="mb-4 ml-2.5 text-sm font-normal ">
-While updates for "Find Me" we continued, our next idea began taking shape – a colorful yet challenging spot-the-difference puzzle game.
+While updates for &quot;Find Me&quot; we continued, our next idea began taking shape – a colorful yet challenging spot-the-difference puzzle game.
 
           </p>
         </li>
@@ -103,7 +103,7 @@ July 11, 2025
           </time>
 
           <p className="mb-4 ml-2.5 text-sm font-normal ">
-🧩 Released "Spot the Difference" – adding a vibrant, visual challenge to our growing lineup.
+🧩 Released &quot;Spot the Difference&quot; – adding a vibrant, visual challenge to our growing lineup.
 
           </p>
         </li>

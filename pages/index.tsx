@@ -11,7 +11,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Fire Divini Games</title>
+        <title>Fire Divine Games</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
         <meta
@@ -20,7 +20,7 @@ const Home: NextPage = () => {
         />
         <meta property="og:url" content="https://astrolabestories.com" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Fire Divini Games" />
+        <meta property="og:title" content="Fire Divine Games" />
         <meta
           property="og:description"
           content="It's all about stories. Our past, future, and present. Now we want to tell our stories - meaningful and unique"

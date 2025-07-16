@@ -45,7 +45,7 @@ const Navbar = () => {
               <a>
                 <img
                   src={logo.src}
-                  alt="Fire Divini Games logo"
+                  alt="Fire Divine Games logo"
                   className="w-36"
                 />
               </a>
@@ -75,21 +75,21 @@ const Navbar = () => {
             </li>
           ))}
           <li className="grid grid-cols-2 gap-8">
-            <a href="https://www.facebook.com/astrolabestories">
+            <a href="">
               <FontAwesomeIcon
                 icon={faFacebookSquare}
                 size="2x"
                 className="text-white"
               />
             </a>
-            <a href="https://www.linkedin.com/company/astrolabe-stories/">
+            <a href="">
               <FontAwesomeIcon
                 icon={faLinkedin}
                 size="2x"
                 className="text-white"
               />
             </a>
-            <a href="https://store.steampowered.com/search/?developer=Astrolabe%20Stories">
+            <a href="">
               <FontAwesomeIcon
                 icon={faSteamSquare}
                 size="2x"
@@ -97,7 +97,7 @@ const Navbar = () => {
               />
             </a>
             <a
-              href="https://www.youtube.com/channel/UCW8tRgqGWNIzyckF1ZkJepg"
+              href=""
               aria-label="YouTube link"
             >
               <FontAwesomeIcon

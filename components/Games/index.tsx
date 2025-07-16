@@ -10,7 +10,7 @@ const Games = () => {
   return (
     <div
       id="games"
-      className="min-h-60 sm:min-h-96 xl:min-h-[50vh] w-full px-5 py-10 max-w-screen-md 2xl:max-w-screen-xl 3xl:max-w-screen-2xl mx-auto"
+      className="min-h-60 sm:min-h-96 xl:min-h-[50vh] w-full px-5 md:px-[60px] py-10 max-w-screen-md 2xl:max-w-screen-xl 3xl:max-w-screen-2xl mx-auto"
     >
       <h2 className="text-primary text-center text-xl font-bold uppercase mb-8">
         GAMES
@@ -20,10 +20,7 @@ const Games = () => {
           <img src={unearthed_poster
           .src} alt="" />
           <div className="flex">
-            <a href="https://store.steampowered.com/app/2230080/Ballads_and_Romances/">
-              <img src={steam.src} alt="Available on Steam" className="w-48" />
-            </a>
-            <a href="https://play.google.com/store/apps/details?id=com.AstrolabeStories.BalladsandRomances">
+            <a href="https://play.google.com/store/apps/details?id=com.DelightPlusGames.UnearthedTheInvasion&pcampaignid=web_share">
               <img
                 src={gplay.src}
                 alt="Available on Google Play"
@@ -75,12 +72,10 @@ Download Find Me now and dive into a world of discovery, relaxation, and fun! Ca
         <div className="flex flex-col-reverse lg:flex-col gap-4 items-center justify-center lg:col-start-2 lg:col-end-4">
           <img src={findme_poster.src} alt="" />
           <div className="flex">
-            <a href="https://store.steampowered.com/app/1840770/Last_Threshold/">
-              <img src={steam.src} alt="Available on Steam" className="w-48" />
-            </a>
-            <a href="https://www.nintendo.com/store/products/last-threshold-switch/">
+           
+            <a href="https://play.google.com/store/apps/details?id=com.DelightPlusGames.FindMe&pcampaignid=web_share">
               <img
-                src={nswitch.src}
+                src={gplay.src}
                 alt="Available on Nintendo Switch"
                 className="w-48"
               />
