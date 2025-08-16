@@ -17,12 +17,11 @@ const Games = () => {
       </h2>
       <div className="flex flex-col-reverse lg:grid lg:grid-cols-3 gap-8 mb-8">
         <div className="col-start-2 lg:col-start-1 lg:col-end-3 flex flex-col-reverse lg:flex-col items-center gap-4">
-          <img src={unearthed_poster
-          .src} alt="" />
+          <img src="/Unearthed.webp" alt="" />
           <div className="flex">
             <a href="https://play.google.com/store/apps/details?id=com.DelightPlusGames.UnearthedTheInvasion&pcampaignid=web_share">
               <img
-                src={gplay.src}
+                src="/gplay.webp"
                 alt="Available on Google Play"
                 className="w-48"
               />
@@ -75,7 +74,7 @@ Download Find Me now and dive into a world of discovery, relaxation, and fun! Ca
            
             <a href="https://play.google.com/store/apps/details?id=com.DelightPlusGames.FindMe&pcampaignid=web_share">
               <img
-                src={gplay.src}
+                src="/gplay.webp"
                 alt="Available on Nintendo Switch"
                 className="w-48"
               />

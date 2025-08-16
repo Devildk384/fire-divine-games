@@ -1,5 +1,5 @@
 {
-  "name": "astrolabe-stories-website",
+  "name": "fire-divine-games",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -15,6 +15,7 @@
     "@fortawesome/react-fontawesome": "^0.1.18",
     "@netlify/functions": "^1.2.0",
     "@sendgrid/mail": "^7.7.0",
+    "axios": "^1.11.0",
     "next": "12.1.6",
     "react": "18.1.0",
     "react-dom": "18.1.0"

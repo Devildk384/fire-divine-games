@@ -18,7 +18,7 @@ const Home: NextPage = () => {
           name="description"
           content="It's all about stories. Our past, future, and present. Now we want to tell our stories - meaningful and unique"
         />
-        <meta property="og:url" content="https://astrolabestories.com" />
+        <meta property="og:url" content="https://firedivine.com" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Fire Divine Games" />
         <meta
@@ -30,7 +30,7 @@ const Home: NextPage = () => {
         <meta property="og:image:height" content="630" />
         <meta property="twitter:card" content="summary" />
         {/* <meta property="twitter:image" content={gameUpLogo.src} /> */}
-        <link rel="canonical" href="https://astrolabestories.com" />
+        <link rel="canonical" href="https://firedivine.com" />
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="apple-touch-icon"
