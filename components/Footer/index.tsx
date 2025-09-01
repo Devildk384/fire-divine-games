@@ -39,6 +39,17 @@ const Footer = () => {
           </a>
         </div>
       </div>
+      <div className="text-xs text-gray-300">
+        Designed & Developed by{" "}
+        <a
+          href="https://syslence.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-semibold hover:underline"
+        >
+          Syslence Technologies
+        </a>
+      </div>
     </footer>
   );
 };
