@@ -9,6 +9,7 @@ export default function SiteFooter() {
         <Link href="/#games">Games</Link>
         <Link href="/studio">Studio</Link>
         <Link href="/contact">Contact</Link>
+        <Link href="/privacy-policy">Privacy</Link>
         <a href="https://play.google.com/store/apps/dev?id=8878040228937888848" target="_blank" rel="noreferrer">
           Google Play <span aria-hidden="true">&#8599;</span>
         </a>
